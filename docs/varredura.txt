@@ -1,0 +1,12 @@
+*Criar biblioteca para leitura de estrutura de grafos;
+*Primeira_aresta(G)
+	g.ma.i_atual = 0;
+	g.ma.j_atual = 1
+	loop para achar a primeira aresta
+
+*Prox_aresta(G)
+	p/ i de i_atual ate n -1 
+		p/ j de j_atual ate n-1
+			teste
+		j_atual <- i+1
+	seta i_atual
